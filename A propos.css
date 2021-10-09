@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+head{
+    margin: 0;
+    padding: 0;
+    line-height: 1,5;
+    font-size: 15px;
+}
+head,ul,nav{
+    list-style: none;
+    margin: 0;
+}
+head,ul, nav,li{
+    display: inline-block;
+}
+head,ul,nav,li,a{
+    color: darkgray;
+    text-decoration: none;
+    display:inline-block;
+    padding: 3px 5px;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    line-height:1,5;
+    font-size: 15px;
+}
+body{
+    background:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_entete{
+    display: flex;
+    margin-left: 7%;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+.nav_ban{
+display: flex;
+}
+.log{
+    margin-left: 37%;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+}
+header{
+    background: white;
+    margin-left: 35px;
+    padding: 10px;
+
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+.header_b{
+    display: flex;
+    justify-content: space-around;
+}
+.nav_h ul li{
+    /* margin-left: 10px; */
+}
+#logo{
+display: inline-block;
+color: white;
+width: 250px;
+text-decoration: none;
+}
+#logo img{
+    width:250px;
+    border-radius: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+nav{
+    widows: 51px;
+    display: inline-block;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+
+}
+.active{
+    padding: 18px; 
+    color:#263238;
+    font-size: 13px;
+    background-color: rgb(0, 132, 255);
+    text-transform: uppercase;
+    border-radius: 7px; 
+    letter-spacing: 2px;
+}
+
+.nav_h li:hover{
+    border-radius: 5px;
+    margin: 0,2px;
+    border:2px solid  rgb(0, 132, 255) ;
+}
+nav ul li a{
+    color:rgb(95, 92, 92);
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    padding: 15px 15px; 
+    transition: 0,3s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.Dave{
+    margin-left: 2.4%;
+    display:flex;
+    justify-content: space-around;
+} 
+.Dave img{
+    width: 455px;
+    height: 540px;
+    justify-content: space-around;
+    clear: both;
+}
+.para{
+     font-size: 15px;
+     padding:0.1px;
+     
+}
+#h{
+       font-size: 12px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       margin-left: -26%;
+}
+.ph{
+    /* box-sizing: content-box; */
+    color:#666666;
+    margin-left: -26%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.vd{
+    margin-left: 8.5%;
+}
+#p1{
+    font-size: 20px;
+    margin-top: -38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p2{
+    margin-top: -15px;
+}
+.vd video{
+    width: 1050px;
+    height: 1250x;
+}
+.Jean{
+    margin-left: 8.5%;
+}
+#h4{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:3px;
+}
+.pp{
+    font-size: 18px;
+    color: #666666;
+    font-family: serif;
+}
+hr{
+    font-size:1px;
+    width:90%;
+    margin-right:115px;
+}
+.Vicep{
+    margin-left:3.5%;
+    margin-top:30px;
+    display:flex;
+    justify-content:space-around;
+}
+.Vicep img{
+    width:430px;
+    height:275px;
+    display:flex;
+    justify-content:space-around;
+}
+.clef h4{
+    margin-left:-3%;
+    margin-top:10px;
+    clear: both;
+    font-size:13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ffff{
+    margin-left:-3%;
+    font-size: 18px;
+    color: #666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.PS{
+    margin-left:8%;
+    margin-top:-165px;
+}
+#dimi{
+    font-size: 20px;
+    margin-top:28px;
+    font-family:sans-serif;
+    color:#666666;
+}
+#dimitri{
+    
+    font-size: 17px;
+    color: #666666;
+    font-family: serif;
+    margin-top:-20px;
+}
+
+footer p
+{
+    font-size:11px;
+    color:gray;
+}
+footer p img
+{
+    width:65px;
+}
+footer{ 
+  margin-left: 4%;
+  margin-top: 100px;
+  padding: 45px;
+}
+    
